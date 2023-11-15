@@ -13,7 +13,7 @@ import princesa from '../assets/images/personajes/princesa.png';
 const characters = [
     {
         image: bufon,
-        title: 'JULIO',
+        title: 'JULIA',
         description: 'Pilar de la alegría'
     },
     {
@@ -79,6 +79,11 @@ const Slider = () => {
           </div>
         ))}
       </Carousel>
+      <div className="contenedor-boton">
+      <button className="conoce-mas">
+        CONOCE MÁS
+      </button>
+      </div>
       
     </div>
   );
