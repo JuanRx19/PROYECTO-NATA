@@ -1,0 +1,10 @@
+.contenedor-hada{
+    display: flex;
+    background-color: #B5DAEE;
+    height: 500px;
+}
+
+.hada-gif{
+    margin-top: 100px;
+    margin-left: 100px;
+}
