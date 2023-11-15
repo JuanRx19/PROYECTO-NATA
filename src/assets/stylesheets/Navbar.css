@@ -38,3 +38,16 @@
 .opcion:hover{
     color: #DD288C;
 }
+
+@media screen and (max-width: 820px){
+    .lista-ul {
+        gap: 30px;
+        margin-right: 75px;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .lista-ul {
+        margin-right: 250px;
+    }
+}
