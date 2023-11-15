@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'tipografia-titulos';
+    src: url('../tipografia/NerkoOne-Regular.otf') format('truetype');
+
+    font-family: 'tipografia-navbar';
+    src: url('../tipografia/KGPrimaryPenmanship.ttf') format('truetype');
+  }

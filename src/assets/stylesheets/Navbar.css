@@ -1,0 +1,39 @@
+.contenedor-navbar{
+    display: flex;
+    background-color: #F2A6C9;
+    font-family: 'tipografia-navbar';
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo-navbar{
+    display: flex;
+    margin-left: 50px;
+}
+
+.lista-ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 400px;
+}
+
+.lista-li {
+    display: flex;
+    list-style: none;
+}
+
+.opcion {
+    display: flex;
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none
+}
+
+.opcion:hover{
+    color: #DD288C;
+}
