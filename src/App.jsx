@@ -12,6 +12,7 @@ function App() {
       <Navbar/>
       <img href="/" className="fondo" src={fondo} alt="fondo" />
       <Hada/>
+      <Slider/>
     </>
   )
 }

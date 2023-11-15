@@ -4,21 +4,29 @@
     object-fit: contain;
 }
 
+.carrusel{
+    padding-top: 30px;
+}
+
 .contenedor-principal{
     display: flex;
     flex-direction: column;
     background-color: #FAE1EE;
+    gap: 10px;
 }
 
 .contenedor-titulo{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 
 .contenedor-descripcion{
     font-family: 'tipografia-navbar';
     font-size: 25px;
+    text-align: center;
+    padding: 0px 270px;
 }
 
 .titulo-pj, .contenedor-titulo{
