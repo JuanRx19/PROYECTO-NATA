@@ -4,11 +4,24 @@
     object-fit: contain;
 }
 
-.carrusel{
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
     background-color: #FAE1EE;
 }
 
-.titulo-pj{
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-descripcion{
+    font-family: 'tipografia-navbar';
+    font-size: 25px;
+}
+
+.titulo-pj, .contenedor-titulo{
     font-family: 'tipografia-titulos';
     font-size: 30px;
 }
