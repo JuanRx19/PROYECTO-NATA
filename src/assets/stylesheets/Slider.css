@@ -16,23 +16,23 @@
     padding-bottom: 30px;
 }
 
-.conoce-mas{
+.conoce-mas {
     background-color: #EF8AAE;
     width: 200px;
     height: 50px;
     border-radius: 50px;
-    border-style:hidden;
+    border-style: hidden;
     font-family: 'tipografia-navbar';
     font-size: 30px;
     color: #fff;
 }
 
-.conoce-mas:hover{
+.conoce-mas:hover {
     background-color: #DD288C;
     cursor: pointer;
 }
 
-.contenedor-boton{
+.contenedor-boton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,4 +69,48 @@
     font-size: 25px;
     text-align: center;
     padding: 0px 270px;
+}
+.react-multiple-carousel__arrow{
+    background-color: #b9b9b9
+}
+
+@media screen and (max-width: 1180px) {
+    .contenedor-descripcion {
+        padding: 0px 170px;
+
+    }
+
+    .react-multiple-carousel__arrow--right{
+        right: 20px;
+    }
+
+    .react-multiple-carousel__arrow--left{
+        left: 20px;
+    }
+      
+}
+
+@media screen and (max-width: 820px) {
+    .contenedor-descripcion {
+        padding: 0px 70px;
+    }
+
+    .personajes {
+        width: 270px;
+        height: 170px;
+        object-fit: contain;
+    }
+    
+    .carrusel{
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .react-multiple-carousel__arrow--right{
+        right: 4px;
+    }
+
+    .react-multiple-carousel__arrow--left{
+        left: 4px;
+    }
 }
