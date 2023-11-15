@@ -1,0 +1,19 @@
+.personajes {
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.carrusel{
+    background-color: #FAE1EE;
+}
+
+.titulo-pj{
+    font-family: 'tipografia-titulos';
+    font-size: 30px;
+}
+
+.descripcion-pj{
+    font-family: 'tipografia-navbar';
+    font-size: 25px;
+}
