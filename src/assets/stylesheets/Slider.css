@@ -1,13 +1,28 @@
 .personajes {
-    width: 100px;
+    width: 300px;
     height: 200px;
     object-fit: contain;
+    margin-left: 25px;
 }
 
 .carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 25px;
     padding-right: 50px;
+}
+
+.titulo-pj, .contenedor-titulo{
+    font-family: 'tipografia-titulos';
+    font-size: 30px
+}
+
+.descripcion-pj{
+    font-family: 'tipografia-navbar';
+    font-size: 25px;
 }
 
 .contenedor-principal{
@@ -15,6 +30,7 @@
     flex-direction: column;
     background-color: #FAE1EE;
     gap: 10px;
+    height: 600px;
 }
 
 .contenedor-titulo{
@@ -29,14 +45,4 @@
     font-size: 25px;
     text-align: center;
     padding: 0px 270px;
-}
-
-.titulo-pj, .contenedor-titulo{
-    font-family: 'tipografia-titulos';
-    font-size: 30px;
-}
-
-.descripcion-pj{
-    font-family: 'tipografia-navbar';
-    font-size: 25px;
 }
