@@ -2,8 +2,18 @@ import React from "react";
 import "../assets/stylesheets/Fonts.css"
 import "../assets/stylesheets/SeccionCuento.css"
 import cuento from '../assets/images/cuento.png';
+import descargar from '../assets/cuento-verdadero-tesoro.pdf'
 
 function SeccionCuento() {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = descargar;
+        link.download = 'cuento-verdadero-tesoro.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
     return (
         <>
             <div className="contenedor-cuento">
@@ -22,7 +32,7 @@ function SeccionCuento() {
                         <p className="texto-bajo">Eso es un misterio que estos amigos están ansiosos por descubrir.</p>
                     </div>
 
-                    <button className="descarga-pdf">
+                    <button className="descarga-pdf" onClick={handleDownload}>
                         DESCARGA EL PDF
                     </button>
                 </div>
