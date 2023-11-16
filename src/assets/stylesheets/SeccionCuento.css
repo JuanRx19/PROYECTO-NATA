@@ -1,0 +1,70 @@
+.contenedor-cuento {
+    display: flex;
+    width: 100%;
+}
+
+.cuento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AAF2EC;
+    height: 100%
+}
+
+.contenedor-descripcion-cuento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FAE1EE;
+    height: 830px;
+    padding: 0 75px;
+}
+
+.contenedor-descripcion-cuento h3{
+    font-family: 'tipografia-navbar';
+    font-size: 50px;
+}
+
+.contenedor-descripcion-cuento h1{
+    font-family: 'tipografia-titulos';
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.contenedor-descripcion-cuento p{
+    font-family: 'tipografia-navbar';
+    font-size: 30px;
+    text-align: justify;
+}
+
+.contenedor-texto-bajo{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contenedor-descripcion-cuento .texto-bajo{
+    text-align: center;
+}
+
+.cuento-img {
+    height: 830px;
+    object-fit: contain;
+}
+
+.descarga-pdf {
+    background-color: #EF8AAE;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: hidden;
+    font-family: 'tipografia-navbar';
+    font-size: 30px;
+    color: #fff;
+}
+
+.descarga-pdf:hover {
+    background-color: #DD288C;
+    cursor: pointer;
+}
