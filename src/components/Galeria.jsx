@@ -1,8 +1,6 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import ReactPlayer from 'react-player';
+import { Swiper, SwiperSlide } from 'swiper/react'
 
-import '../index.css'
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';

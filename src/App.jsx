@@ -20,14 +20,14 @@ function App() {
       <img href="/" className="fondo" src={fondo} alt="fondo" />
       <Hada />
       <Slider />
-      <Galeria/>
+      <Galeria />
       <SeccionCuento />
       <SeccionJuego />
       <div className="contenedor-cards">
         <Card titulorecuadro="Colorea" color="#FAE1EE" titulo="Paquete de Ilustraciones para colorear." descripcion="Estimula la creatividad de tus hijos a medida que dan rienda suelta a su imaginación pintando y explorando los cautivadores personajes de este emocionante cuento." img={colorea} botonColor={"#EF8AAE"} botonHover={"#f7548d"} />
         <Card titulorecuadro="Imprime" color="#B5DAEE" titulo="Juega desde casa" descripcion="¡Descarga todo lo necesario para jugar 'El Verdadero Tesoro' desde la comodidad de tu hogar! Incluye el tablero, cartas y fichas. Disfruta de un fantástico juego en familia." img={imprime} botonColor={"#54AFE2"} botonHover={"#1596e0"} />
       </div>
-      
+
     </>
   )
 }
