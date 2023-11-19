@@ -8,9 +8,7 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import slide_image_1 from '../assets/images/galeria/6a45ce01-7891-4333-858b-d593303d8ebb.jpg';
-import slide_image_2 from '../assets/images/galeria/820d0307-d25e-44a8-9e1f-8861bf4669dd.jpg';
-import slide_image_3 from '../assets/images/galeria/a1233d41-71a5-436a-8a96-085374b3eec8.jpg';
+
 import slide_image_4 from '../assets/images/galeria/IMG_0068.jpg';
 import slide_image_5 from '../assets/images/galeria/IMG_0074.jpg';
 import slide_image_6 from '../assets/images/galeria/IMG_0099.jpg';
@@ -48,15 +46,7 @@ function Galeria() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
-        </SwiperSlide>
+        
         <SwiperSlide>
           <img src={slide_image_4} alt="slide_image" />
         </SwiperSlide>
