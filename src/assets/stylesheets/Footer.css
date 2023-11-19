@@ -1,21 +1,18 @@
 .contenedor-footer{
-    height: 952px;
+    display: flex;
+    flex-direction: column;
     background-color: #E8E8E8;
-}
-
-.cuento-img-1, .cuento-img-2{
-    width: 100%;
-}
-
-.cuento-img-1{
-    position: relative;
-}
-
-.cuento-img-2{
-    margin-left: -27px;
-    margin-top: -720px;
+    justify-content: center;
 }
 
 .contenedor-titulo-footer{
-    background-color: red;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'tipografia-titulos';
+    font-size: 30px;
+}
+
+.cuento-img-1{
+    width: 100%;
+    margin-bottom: -10px;
 }
