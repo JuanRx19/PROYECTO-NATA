@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'
 
+import "../assets/stylesheets/Fonts.css"
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -26,7 +27,7 @@ import slide_image_14 from '../assets/images/galeria/IMG_8652.jpg';
 function Galeria() {
   return (
     <div className="container">
-      <h1 className="heading">Galería</h1>
+      <h1 className="heading">GALERÍA</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
