@@ -3,3 +3,12 @@
     height: 100% - 70px;
     margin-bottom: -100px;
 }
+
+.contenedor-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E8;
+    height: 1060px;
+}

@@ -1,0 +1,77 @@
+.contenedor-card{
+    display: flex;
+    height: 400px;
+    background-color: white;
+    width: 700px;
+    margin-top: 70px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    box-shadow: 13 13px 13px 13px  rgb(0, 0, 0, 10%);
+}
+
+.contenedor-de-texto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor-img{
+    height: 100%;
+    width: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.colorea-img{
+    height: 100%;
+}
+
+.titulo-card{
+    text-align: center;
+    font-family: 'tipografia-titulos';
+    font-size: 30px;
+}
+
+.descripcion-card{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'tipografia-navbar';
+    font-size: 20px;
+}
+
+.recuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'tipografia-navbar';
+    font-size: 30px;
+}
+
+.contenedor-inferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    padding-top: 20px;
+}
+
+.boton-card {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: hidden;
+    font-family: 'tipografia-navbar';
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.boton-card:hover {
+    cursor: pointer;
+}
