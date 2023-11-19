@@ -68,3 +68,74 @@
     background-color: #DD288C;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1180px){
+    .cuento-img{
+        height: 770px;
+    }
+
+    .contenedor-descripcion-cuento h3{
+        font-family: 'tipografia-navbar';
+        font-size: 40px;
+    }
+    
+    .contenedor-descripcion-cuento h1{
+        font-family: 'tipografia-titulos';
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    .contenedor-descripcion-cuento p{
+        font-size: 27px;
+        text-align: justify;
+    }
+
+    .contenedor-descripcion-cuento {
+        padding: 0 45px;
+        height: 830px;
+    }
+
+    .contenedor-texto-bajo{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .cuento{
+        height: 830px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .cuento-img{
+        height: 550px;
+    }
+
+    .contenedor-descripcion-cuento h3{
+        font-family: 'tipografia-navbar';
+        font-size: 30px;
+    }
+    
+    .contenedor-descripcion-cuento h1{
+        font-family: 'tipografia-titulos';
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .contenedor-descripcion-cuento p{
+        font-size: 22px;
+        text-align: justify;
+    }
+
+    .contenedor-descripcion-cuento {
+        padding: 0 25px;
+        height: 600px;
+    }
+    .cuento{
+        height: 600px;
+    }
+
+    .contenedor-texto-bajo{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
