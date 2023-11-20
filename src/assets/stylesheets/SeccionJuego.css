@@ -47,3 +47,63 @@
 .contenedor-juego-mesa .texto-bajo{
     text-align: center;
 }
+
+@media screen and (max-width: 1180px){
+    .juego-img{
+        height: 550px;
+    }
+
+    .contenedor-juego-mesa h3{
+        font-family: 'tipografia-navbar';
+        font-size: 30px;
+    }
+    
+    .contenedor-juego-mesa h1{
+        font-family: 'tipografia-titulos';
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    .contenedor-juego-mesa p{
+        font-size: 23px;
+    }
+
+    .contenedor-juego-mesa{
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .contenedor-juego{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .juego-img{
+        height: 420px;
+    }
+
+    .contenedor-juego-mesa h3{
+        font-family: 'tipografia-navbar';
+        font-size: 30px;
+    }
+    
+    .contenedor-juego-mesa h1{
+        font-family: 'tipografia-titulos';
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .contenedor-juego-mesa p{
+        font-size: 18px;
+    }
+
+    .contenedor-juego-mesa{
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .contenedor-juego{
+        height: 600px;
+    }
+}

@@ -17,7 +17,7 @@ function SeccionJuego() {
         <>
             <div className="contenedor-juego">
                 <div className="contenedor-juego-mesa">
-                    <h3>CUENTO</h3>
+                    <h3>JUEGO DE MESA</h3>
                     <h1>"EL VERDADERO TESORO"</h1>
                     <p>El juego "El Verdadero Tesoro" es una experiencia única diseñada para niños, centrada en la
                         aventura mágica en Encantopia. Este juego de mesa interactivo no solo entretiene, sino que
