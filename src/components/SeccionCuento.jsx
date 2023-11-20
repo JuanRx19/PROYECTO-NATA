@@ -16,7 +16,7 @@ function SeccionCuento() {
 
     return (
         <>
-            <div className="contenedor-cuento" id="material-didactico">
+            <div className="contenedor-cuento" id="producto">
                 <div className="cuento">
                     <img className="cuento-img" src={cuento} alt="cuento" />
                 </div>

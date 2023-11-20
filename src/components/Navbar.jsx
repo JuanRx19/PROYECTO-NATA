@@ -16,10 +16,10 @@ function Navbar(){
                     <a href="#galeria" className="opcion">GALERÍA</a>
                 </li>
                 <li className="lista-li">
-                    <a href="#material-didactico" className="opcion">MATERIAL DIDÁCTICO</a>
+                    <a href="#producto" className="opcion">PRODUCTO</a>
                 </li>
                 <li className="lista-li">
-                    <a href="#producto" className="opcion">PRODUCTO</a>
+                    <a href="#material-didactico" className="opcion">MATERIAL DIDÁCTICO</a>
                 </li>
                 <li className="lista-li">
                     <a href="#tips" className="opcion">TIPS</a>
