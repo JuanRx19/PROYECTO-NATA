@@ -61,7 +61,7 @@ const responsive = {
 
 const Slider = () => {
   return (
-    <div className="contenedor-principal">
+    <div className="contenedor-principal" id='personajes'>
       <div className="contenedor-titulo">
         <h3 className='titulo-h3'>PERSONAJES</h3>
       </div>

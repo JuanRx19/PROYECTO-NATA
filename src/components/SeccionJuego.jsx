@@ -15,7 +15,7 @@ function SeccionJuego() {
     };
     return (
         <>
-            <div className="contenedor-juego">
+            <div className="contenedor-juego" id="producto">
                 <div className="contenedor-juego-mesa">
                     <h3>JUEGO DE MESA</h3>
                     <h1>"EL VERDADERO TESORO"</h1>

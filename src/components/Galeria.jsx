@@ -26,7 +26,7 @@ import slide_image_14 from '../assets/images/galeria/IMG_8652.jpg';
 
 function Galeria() {
   return (
-    <div className="container">
+    <div className="container" id='galeria'>
       <h1 className="heading">GALERÍA</h1>
       <Swiper
         effect={'coverflow'}
