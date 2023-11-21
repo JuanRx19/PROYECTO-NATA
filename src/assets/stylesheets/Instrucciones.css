@@ -1,0 +1,33 @@
+.titulo-instrucciones{
+    font-family: 'tipografia-titulos';
+    font-size: 60px;
+    text-align: center;
+    padding: 1rem 0;
+    padding-bottom: 40px;
+}
+
+.contenedor-instrucciones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 850px;
+    align-items: center;
+}
+
+.tv {
+    width: 800px;
+    height: 640px;
+    object-fit: contain;
+    position: relative
+  }
+  
+  .screen {
+    position: absolute;
+    margin-top: 145px;
+    margin-right: 25px;
+    /*top: 50px;  Ajusta esto para mover el video hacia arriba o hacia abajo */
+    /*left: 50px;  Ajusta esto para mover el video hacia la izquierda o la derecha */
+    width: 470px;  /*Ajusta esto al ancho del "pantalla" de tu imagen de televisor */
+    height: 325px;  /*Ajusta esto al alto del "pantalla" de tu imagen de televisor */
+  }
+  

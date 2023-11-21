@@ -22,7 +22,7 @@ function Navbar(){
                     <a href="#material-didactico" className="opcion">MATERIAL DIDÁCTICO</a>
                 </li>
                 <li className="lista-li">
-                    <a href="#tips" className="opcion">TIPS</a>
+                    <a href="#instrucciones" className="opcion">INSTRUCCIONES</a>
                 </li>
             </ul>
         </nav>
