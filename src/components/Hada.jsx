@@ -8,7 +8,6 @@ function Hada(){
     <>
         <div className="contenedor-hada">
             <img href="/" className="hada-gif" src={hadagif} alt="hada-gif" />
-            <img href="/" className="dialogo" src={dialogo} alt="dialogo" />
         </div>
     </>
     );
