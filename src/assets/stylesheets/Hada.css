@@ -1,7 +1,6 @@
 .contenedor-hada{
     display: flex;
-    /*background-color: #B5DAEE;*/
-    background-color: red;
+    background-color: #B5DAEE;
     height: 500px;
     justify-content: center;
 }
@@ -21,11 +20,13 @@
 }
 
 .hada-gif{
-    height: 400px;
+    height: 450px;
     object-fit: contain;
+    margin-left: 300px;
 }
 
 .dialogo{
     height: 300px;
     object-fit: contain;
+    margin-right: 300px;
 }
