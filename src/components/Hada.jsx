@@ -1,6 +1,6 @@
 import React  from "react";
 import "../assets/stylesheets/Hada.css";
-import hadagif from '../assets/images/hada.gif';
+import hadagif from '../assets/images/TV.png';
 import dialogo from '../assets/images/dialogo.png';
 
 function Hada(){
