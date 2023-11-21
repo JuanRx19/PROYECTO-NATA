@@ -1,4 +1,4 @@
-.contenedor-navbar{
+.contenedor-navbar {
     display: flex;
     background-color: #F2A6C9;
     font-family: 'tipografia-navbar';
@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-.logo-navbar{
+.logo-navbar {
     display: flex;
     margin-left: 50px;
 }
@@ -35,17 +35,17 @@
     text-decoration: none
 }
 
-.opcion:hover{
+.opcion:hover {
     color: #DD288C;
 }
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1180px) {
     .lista-ul {
         margin-right: 250px;
     }
 }
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 820px) {
     .lista-ul {
         gap: 30px;
         margin-right: 75px;
