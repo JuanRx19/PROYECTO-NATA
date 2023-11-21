@@ -6,18 +6,9 @@
 }
 
 .hada-gif{
-    margin-top: 100px;
+    
 }
 
 .dialogo{
-    display: flex;
-    margin-top: 100px;
-    height: 50%;
-}
-
-.dialogo-contenedor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -100px;
+    
 }
